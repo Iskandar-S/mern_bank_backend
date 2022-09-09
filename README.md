@@ -38,7 +38,7 @@ This Full Stack MERN App is part of Per Scholas final project. This repo is for 
 
 ### Prerequisites
 
-Nothing. Just go [here](https://mern-bank-frontend.herokuapp.com/main).
+Nothing. Just go [here](https://mern-bank-backend.herokuapp.com/api/accounts).
 
 ## Backend Built With
 
@@ -48,10 +48,11 @@ Nothing. Just go [here](https://mern-bank-frontend.herokuapp.com/main).
 
 
 ## Deployed in [Heroku](https://mern-bank-backend.herokuapp.com/api/accounts).
-- Backend deployment is [here](https://mern-bank-frontend.herokuapp.com/main).
+- Frontend deployment is [here](https://mern-bank-frontend.herokuapp.com/main).
 
 ## Future Plans
 
 This project is a work in progress. Currently I'm working on:
-- Users Schema
+- Users model
 - Signup and Login using Passport.js' Local strategy
+- Plaid API

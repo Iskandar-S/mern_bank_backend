@@ -53,8 +53,6 @@ const transactions = [
 		merchantName: 'Jeff Bezos',
 		category: 'Income: Paychecks/Salary',
 	},
-
-	{},
 	{
 		accountNumber: 42992483991,
 		description: 'T-Mobile Autopay',
@@ -84,12 +82,12 @@ const transactions = [
 	},
 	{
 		accountNumber: 42992483991,
-		description: 'Paris Baguette Purchase',
+		description: 'Netflix Autopay',
 		type: 'Debit Card',
 		cleared: true,
-		amount: 59.99,
-		merchantName: 'Paris Baguette',
-		category: 'Eating Places and Restaurants',
+		amount: 10.99,
+		merchantName: 'Netflix',
+		category: 'Shopping & Entertainment: Online Services',
 	},
 	{
 		accountNumber: 42992483991,
@@ -102,11 +100,11 @@ const transactions = [
 	},
 	{
 		accountNumber: 42992483991,
-		description: 'Amazon: Direct Deposit',
+		description: 'Tesla: Direct Deposit',
 		type: 'Deposit',
 		cleared: true,
-		amount: 100500.69,
-		merchantName: 'Jeff Bezos',
+		amount: 420.69,
+		merchantName: 'Elon Musk',
 		category: 'Income: Paychecks/Salary',
 	},
 ];

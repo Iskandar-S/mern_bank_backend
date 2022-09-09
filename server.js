@@ -9,7 +9,7 @@ const transactionRoutes = require('./routes/transactions');
 // Environment Variables
 require('dotenv').config();
 const mongoURI = process.env.MONGO_URI;
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3003;
 const db = mongoose.connection;
 
 // Connect to Mongo
